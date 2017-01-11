@@ -1,0 +1,1 @@
+var xanman=[120,97,110,109,97,110],index=0;document.onkeypress=function(n){n=n||window.event;var e=n.keyCode;e==xanman[index]?index++:index=0,6==index&&(window.location.href="img/wyd_rn-min.jpg")};
